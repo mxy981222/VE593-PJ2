@@ -21,7 +21,7 @@ $pip install graphviz
 $pip install pydotplus
 ```
 
-Also, you should add the directory of the $bin$ of $graphviz$ into PATH.
+Also, you should add the directory of the #bin of #graphviz into PATH.
 
 ## Part1. BN
 
