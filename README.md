@@ -27,7 +27,7 @@ Also, you should add the directory of the $bin$ of $graphviz$ into PATH.
 
 The file is named as $protain.py$ there are several functions within it.
 
-1. $partition(filename)$
+1. `partition(filename)`
   
   this function is used to generate the test file and train file.
   
@@ -36,7 +36,7 @@ The file is named as $protain.py$ there are several functions within it.
   output: separate the filename.csv into filename_train.csv and filename_test.csv, with size 7:3 
   ```
   
-2. $main()$
+2. `main()`
   
   this function will directly train the model with three different methods and compare the result of two of them.
   
@@ -50,21 +50,21 @@ The file is named as $protain.py$ there are several functions within it.
 
 The file is named as $dbn.py$ there are different methods within it
 
-1. $genre(s)$
+1. `genre(s)`
   
   ```
   input: a list of number s
   output: a list of return of s
   ```
   
-2. $genbin(l)$ and $genbinv(v)$
+2. `genbin(l)` and `genbinv(v)`
   
   ```
   input: a list of return
   output: a discretized variable of the input, and the number of variables after discretization
   ```
   
-3. $gentt(filename)$
+3. `gentt(filename)`
   
   It will generate the train and test data
   
@@ -73,7 +73,7 @@ The file is named as $dbn.py$ there are different methods within it
   output: the number of variables of each feature, filename_train.csv and filename_test.csv
   ```
   
-4. trainmodel(filename)
+4. `trainmodel(filename)`
   
   It can train the 1-order markov chain with the given data.
   
@@ -82,7 +82,7 @@ The file is named as $dbn.py$ there are different methods within it
   output: the number of prediction to go up, and the number of the correct predictions
   ```
   
-5. genttk(filename,k)
+5. `genttk(filename,k)`
   
   It will generate the train and test data
   
@@ -91,7 +91,7 @@ The file is named as $dbn.py$ there are different methods within it
   output: the number of variables of each feature, filename_traink.csv and filename_testk.csv
   ```
   
-6. kmodel(filename,k)
+6. `kmodel(filename,k)`
   
   It can train the k-order markov chain with the given data.
   
@@ -100,7 +100,7 @@ The file is named as $dbn.py$ there are different methods within it
   output: the number of prediction to go up, and the number of the correct predictions
   ```
   
-7. $main()$
+7. `main()`
   
   It can will use $kmodel(filename,k)$ to train 1 to 20 order markov chain for prediction and evaluate the results and also plot the evaluation.
   
