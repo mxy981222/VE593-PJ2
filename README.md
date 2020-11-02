@@ -21,11 +21,11 @@ $pip install graphviz
 $pip install pydotplus
 ```
 
-Also, you should add the directory of the #bin of #graphviz into PATH.
+Also, you should add the directory of the *bin* of *graphviz* into PATH.
 
 ## Part1. BN
 
-The file is named as $protain.py$ there are several functions within it.
+The file is named as **protain.py** there are several functions within it.
 
 1. `partition(filename)`
   
@@ -48,7 +48,7 @@ The file is named as $protain.py$ there are several functions within it.
 
 ## Part2. DBN
 
-The file is named as $dbn.py$ there are different methods within it
+The file is named as **dbn.py** there are different methods within it
 
 1. `genre(s)`
   
